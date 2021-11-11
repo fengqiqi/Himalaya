@@ -1,8 +1,19 @@
 # -*- coding: utf-8 -*-
+# !/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# @Time    : 2021/11/11
+# @Author  : Fitch
+# @File    : himalaya_app_speed.py
+# @Software: PyCharm
+
+'''
+cron:  0 23 * * * himalaya_app_speed.py
+new Env('喜马拉雅极速版签到');
+'''
+
 import base64
 import hashlib
 import json
-import os
 import re
 import time
 from datetime import datetime, timedelta
